@@ -1,0 +1,4 @@
+lite-blue:#daf1f4
+lite:#eeeeee
+dark:#202020
+lite-gray:#707070
