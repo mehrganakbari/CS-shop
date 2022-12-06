@@ -17,11 +17,11 @@
 
 <body class="bg-lite">
   <!-- navbar -->
-  <nav class="">
+  <nav>
     <!-- top navbar -->
     <div class="bg-dark">
       <div
-        class="flex flex-col text-center xs2:flex-row xs2:justify-between px-6 py-4 w-full container mx-auto max-w-9xl">
+        class="flex flex-col text-center xs2:flex-row xs2:justify-between px-6 py-4 w-full  container z-auto mx-auto max-w-[1536px]">
         <!-- addres -->
         <div class="flex items-center gap-x-2 pb-2 xs2:pb-0 text-center justify-center">
           <img class="w-6 h-6" src="assets/images/home.png" alt="">
@@ -34,50 +34,54 @@
         </div>
       </div>
     </div>
-    <!-- bottom navbar -->
-    <div class="py-8 px-6 flex flex-col xs2:flex-row justify-between items-center container mx-auto max-w-9xl">
+    <!-- button navbar -->
+    <div
+      class="py-8 px-6 flex flex-col xs2:flex-row justify-between items-center  container z-auto mx-auto max-w-[1536px]">
       <!-- navbar social media icons -->
       <div class="hidden md:flex justify-between gap-x-3 items-center">
-        <img src="assets/images/instagram.png" class="w-7 h-7 cursor-pointer">
-        <img src="assets/images/twitter.png" class="w-7 h-7 cursor-pointer">
-        <img src="assets/images/facebook.png" class="w-7 h-7 cursor-pointer">
-      </div>
-      <!-- navbar user icons mobile-->
-      <div class="flex justify-between pb-2 xs2:hidden gap-x-3 items-center">
-        <img src="assets/images/shopping-cart.png" alt="" class="w-7 h-7">
-        <img src="assets/images/search.png" alt="" class="w-7 h-7">
-        <img src="assets/images/profile.jpg" alt="" class="w-8 h-8 rounded-full -rotate-[33deg] border">
-      </div>
-      <!-- Mobile menu button -->
-      <div class="xs2:hidden flex justify-between">
-        <button class="outline-none mobile-menu-button">
-          <svg class="w-8 h-8 rounded-md m-5 text-dark" x-show="!showMenu" fill="none" stroke-linecap="round"
-            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-            <path d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
+        <img src="assets/images/instagram.png" class="w-7 h-7">
+        <img src="assets/images/twitter.png" class="w-7 h-7">
+        <img src="assets/images/facebook.png" class="w-7 h-7">
       </div>
       <!-- navbar links -->
-      <div class="hidden xs2:flex justify-between px-5">
+      <div class="hidden px3 xs2:flex justify-between gap-x-5">
         <a href="index.html" class="text-dark text-xl">Home</a>
-        <a href="" class="text-dark text-xl px-5">About</a>
-        <a href="" class="text-dark text-xl px-5">shop</a>
-        <a href="" class="text-dark text-xl px-5">blog</a>
-        <a href="" class="text-dark text-xl px-5">contact</a>
-      </div>
-      <!-- navbar links -->
-      <div class="hidden py-4 px-3 items-center text-center bg-dark justify-between w-full mobile-menu">
-        <a href="index.html" class="text-lite text-xl px-5">Home</a><br>
-        <a href="" class="text-lite text-xl px-5 my-2">About</a><br>
-        <a href="" class="text-lite text-xl px-5 my-2">shop</a><br>
-        <a href="" class="text-lite text-xl px-5 my-2">blog</a><br>
-        <a href="" class="text-lite text-xl px-5 my-2">contact</a>
+        <a href="" class="text-dark text-xl">About</a>
+        <a href="" class="text-dark text-xl">shop</a>
+        <a href="" class="text-dark text-xl">blog</a>
+        <a href="" class="text-dark text-xl">contact</a>
       </div>
       <!-- navbar user icons desktop-->
       <div class="hidden xs2:flex justify-between gap-x-3 items-center">
         <img src="assets/images/shopping-cart.png" alt="" class="w-7 h-7">
         <img src="assets/images/search.png" alt="" class="w-7 h-7">
         <img src="assets/images/profile.jpg" alt="" class="w-8 h-8 rounded-full -rotate-[33deg] border">
+      </div>
+      <!-- navbar ==> mobile -->
+      <div class="sm:hidden w-full">
+        <!-- Mobile menu button -->
+        <div class="sm:hidden flex justify-between w-full">
+          <!-- navbar user icons mobile-->
+          <div class="flex justify-between pb-2 xs2:hidden gap-x-3 items-center">
+            <img src="assets/images/shopping-cart.png" alt="" class="w-7 h-7">
+            <img src="assets/images/search.png" alt="" class="w-7 h-7">
+            <img src="assets/images/profile.jpg" alt="" class="w-8 h-8 rounded-full -rotate-[33deg] border">
+          </div>
+          <button class="outline-none mobile-menu-button">
+            <svg class="w-8 h-8 rounded-md m-5 text-white " x-show="!showMenu" fill="none" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+        <!-- navbar links -> mobile -->
+        <div class="hidden py-4 px-3 bg-dark justify-between gap-x-5 w-full mobile-menu">
+          <a href="index.html" class="text-lite text-xl text-center">Home</a><br>
+          <a href="" class="text-lite text-xl">About</a><br>
+          <a href="" class="text-lite text-xl">shop</a><br>
+          <a href="" class="text-lite text-xl">blog</a><br>
+          <a href="" class="text-lite text-xl">contact</a>
+        </div>
       </div>
     </div>
   </nav>
@@ -150,14 +154,12 @@
       </a>
     </div>
   </section>
-
   <!--  Offer To Buy a watch -->
   <section class="flex justify-center px-6 py-6 bg-dark m-6 container mx-auto max-w-9xl">
     <div id="offerbywatchSect" class="flex justify-around flex-wrap gap-2 mx-6">
 
     </div>
   </section>
-
   <!-- footer -->
   <footer class="bg-dark ">
     <div class="pt-20 pb-5 px-10 w-full container mx-auto max-w-9xl">
