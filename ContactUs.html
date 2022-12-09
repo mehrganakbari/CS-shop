@@ -80,14 +80,16 @@
         </div>
     </nav>
     <!-- cards -->
-    <div class="flex justify-evenly flex-wrap container z-auto max-w-[1536px] px-5">
+    <div class="flex justify-between flex-wrap container z-auto max-w-[1536px] px-5">
         <!-- E-mail -->
         <div class="w-64 m-2 bg-dark text-center py-10 ">
             <div class="w-full flex justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 text-lite">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="w-10 h-10 text-lite">
                     <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
-                    <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
-                  </svg>                  
+                    <path
+                        d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                </svg>
             </div>
             <div class="text-center text-xl py-2 text-lite">E-mail</div>
             <div class="text-center text-lite">CSshop@gmail.com</div>
@@ -125,11 +127,26 @@
         </div>
     </div>
     <!-- form -->
-    <section class="grid grid-cols-3 container z-auto max-w-[1536px] px-5">
+    <section class="grid grid-cols-3 container z-auto max-w-[1536px] px-5 my-20">
         <!-- information inputs -->
-        <div class="col-span-1"></div>
+        <div class="col-span-1">
+            <form action="#">
+                <input type="text" name="Name" id="Name" placeholder="Enter your Name . . ."
+                    class="py-2 px-3 border-b border-b-dark bg-lite placeholder:text-xl text-xl text-lite-gray placeholder:text-dark font-bold w-full mb-3 focus:outline-none">
+                <input type="text" name="Name" id="Name" placeholder="Enter your Username . . ."
+                    class="py-2 px-3 border-b border-b-dark bg-lite placeholder:text-xl text-xl text-lite-gray placeholder:text-dark font-bold w-full my-3 focus:outline-none">
+                <input type="text" name="Name" id="Name" placeholder="Enter your E-mail . . ."
+                    class="py-2 px-3 border-b border-b-dark bg-lite placeholder:text-xl text-xl text-lite-gray placeholder:text-dark font-bold w-full my-3 focus:outline-none">
+                <input type="text" name="Name" id="Name" placeholder="Enter your Phone Number . . ."
+                    class="py-2 px-3 border-b border-b-dark bg-lite placeholder:text-xl text-xl text-lite-gray placeholder:text-dark font-bold w-full my-3 focus:outline-none">
+                <input type="submit" value="Submit" class="w-full mt-3 py-2 bg-dark text-lite text-xl font-bold">
+            </form>
+        </div>
         <!-- message input -->
-        <div class="col-span-2"></div>
+        <div class="col-span-2 px-5">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"
+                class="w-full h-full bg-lite px-5 py-3 border border-dark text-lite-gray text-xl font-bold placeholder:text-dark placeholder:text-xl focus:outline-none"></textarea>
+        </div>
     </section>
     <script type="module" src="src/scripts/main.js"></script>
 </body>
