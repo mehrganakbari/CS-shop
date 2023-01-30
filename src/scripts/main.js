@@ -65,13 +65,14 @@ watchCards.forEach(el => {
             <img src="assets/images/star.png">
           </div>
           <button class="flex justify-center py-2 px-5 text-dark bg-lite-blue mx-auto rounded-full transition-all duration-300 hover:w-4/5 hover:justify-between gap-2">
-    <span>read more</span>
-    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-        stroke="currentColor" class="w-5 h-5 mt-1">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-      </svg>
-    </span>
-  </button>
+            <span>read more</span>
+            <span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-5 h-5 mt-1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+            </svg>
+            </span>
+          </button>
       </div>
     </div>
   </div>
