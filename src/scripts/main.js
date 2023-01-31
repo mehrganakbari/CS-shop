@@ -1,44 +1,39 @@
-import "../common/index.css"
+import '../common/index.css'
 
-const btn = document.querySelector("button.mobile-menu-button")
-const menu = document.querySelector(".mobile-menu")
 
-btn.addEventListener("click", () => {
-  menu.classList.toggle("hidden")
-})
 
 // carusel
 const elem = document.querySelector('#offerbywatchSect')
 var watchCards = [{
-    "title": "Galaxy Watch 3",
-    "image": "assets/images/Screenshot_2022-10-18_172826-removebg-preview.png",
-    "price": "350$",
-    "star": 4,
-    "seal": true
+    'title': 'Galaxy Watch 3',
+    'image': 'assets/images/Screenshot_2022-10-18_172826-removebg-preview.png',
+    'price': '350$',
+    'star': 4,
+    'seal': true
   },
 
   {
-    "title": "Rolex",
-    "image": "/assets/images/Screenshot_2022-10-18_173540-removebg-preview.png",
-    "price": "500$",
-    "star": 4,
-    "seal": true
+    'title': 'Rolex',
+    'image': '/assets/images/Screenshot_2022-10-18_173540-removebg-preview.png',
+    'price': '500$',
+    'star': 4,
+    'seal': true
   },
 
   {
-    "title": "G-sharke",
-    "image": "/assets/images/Screenshot_2022-10-18_172955-removebg-preview.png",
-    "price": "700$",
-    "star": 5,
-    "seal": true
+    'title': 'G-sharke',
+    'image': '/assets/images/Screenshot_2022-10-18_172955-removebg-preview.png',
+    'price': '700$',
+    'star': 5,
+    'seal': true
   },
 
   {
-    "title": "Rolex woman",
-    "image": "/assets/images/Screenshot_2022-10-18_173447-removebg-preview.png",
-    "price": "5420$",
-    "star": 5,
-    "seal": true
+    'title': 'Rolex woman',
+    'image': '/assets/images/Screenshot_2022-10-18_173447-removebg-preview.png',
+    'price': '5420$',
+    'star': 5,
+    'seal': true
   },
 ]
 
