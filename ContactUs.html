@@ -80,48 +80,55 @@
         </div>
     </nav>
     <!-- cards -->
-    <div class="flex justify-between flex-wrap container z-auto max-w-[1536px] px-5">
+    <div class="grid xl:grid-cols-3 container gap-3 z-auto max-w-[1536px] px-5">
         <!-- E-mail -->
-        <div class="w-64 m-2 bg-dark text-center py-10 ">
-            <div class="w-full flex justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                    class="w-10 h-10 text-lite">
-                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
-                    <path
-                        d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
-                </svg>
+        <div class="w-full bg-dark flex justify-center">
+            <div class="w-64 m-2 bg-dark text-center py-10 ">
+                <div class="w-full flex justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="w-10 h-10 text-lite">
+                        <path
+                            d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                        <path
+                            d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                    </svg>
+                </div>
+                <div class="text-center text-xl py-2 text-lite">E-mail</div>
+                <div class="text-center text-lite">CSshop@gmail.com</div>
             </div>
-            <div class="text-center text-xl py-2 text-lite">E-mail</div>
-            <div class="text-center text-lite">CSshop@gmail.com</div>
         </div>
         <!-- Address -->
-        <div class="w-64 m-2 bg-dark text-center py-10">
-            <div class="w-full flex justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                    class="w-10 h-10 text-lite">
-                    <path fill-rule="evenodd"
-                        d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-                        clip-rule="evenodd" />
-                </svg>
+        <div class="w-full bg-dark flex justify-center">
+            <div class="w-64 m-2 bg-dark text-center py-10">
+                <div class="w-full flex justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="w-10 h-10 text-lite">
+                        <path fill-rule="evenodd"
+                            d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="text-center text-xl py-2 text-lite">Address</div>
+                <div class="text-center text-lite">Germany. Berlin. Lustgarten</div>
             </div>
-            <div class="text-center text-xl py-2 text-lite">Address</div>
-            <div class="text-center text-lite">Germany. Berlin. Lustgarten</div>
         </div>
         <!-- Social Media -->
-        <div class="w-64 m-2 bg-dark text-center py-10">
-            <div class="text-center text-xl pb-2 text-lite">Social Media</div>
-            <div class="grid grid-cols-5 my-4 items-center gap-x-2 justify-center md:justify-start">
-                <div>
-                    <!-- offset -->
-                </div>
-                <div class="grid-cols-1 p-1 bg-lite cursor-pointer"><img src="assets/images/instagram.png" class="w-8">
-                </div>
-                <div class="grid-cols-1 p-1 bg-lite cursor-pointer"><img src="assets/images/facebook.png" class="w-8">
-                </div>
-                <div class="grid-cols-1 p-1 bg-lite cursor-pointer"><img src="assets/images/twitter.png" class="w-8">
-                </div>
-                <div>
-                    <!-- offset -->
+        <div class="w-full bg-dark flex justify-center">
+            <div class="w-64 m-2 bg-dark text-center py-10">
+                <div class="text-center text-xl pb-2 text-lite">Social Media</div>
+                <div class="grid grid-cols-5 my-4 items-center gap-x-2 justify-center md:justify-start">
+                    <div>
+                        <!-- offset -->
+                    </div>
+                    <div class="grid-cols-1 p-1 bg-lite cursor-pointer"><img src="assets/images/instagram.png"
+                            class="w-8">
+                    </div>
+                    <div class="grid-cols-1 p-1 bg-lite cursor-pointer"><img src="assets/images/facebook.png"
+                            class="w-8">
+                    </div>
+                    <div class="grid-cols-1 p-1 bg-lite cursor-pointer"><img src="assets/images/twitter.png"
+                            class="w-8">
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,7 +136,7 @@
     <!-- form -->
     <section class="grid grid-cols-3 container z-auto max-w-[1536px] px-5 my-20">
         <!-- information inputs -->
-        <div class="col-span-1">
+        <div class="col-span-3 xl:col-span-1">
             <form action="#">
                 <input type="text" name="Name" id="Name" placeholder="Enter your Name . . ."
                     class="py-2 px-3 border-b border-b-dark bg-lite placeholder:text-xl text-xl text-lite-gray placeholder:text-dark font-bold w-full mb-3 focus:outline-none">
@@ -143,11 +150,72 @@
             </form>
         </div>
         <!-- message input -->
-        <div class="col-span-2 px-5">
+        <div class="col-span-3 xl:col-span-2 xl:px-5 my-5 xl:my-0">
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"
                 class="w-full h-full bg-lite px-5 py-3 border border-dark text-lite-gray text-xl font-bold placeholder:text-dark placeholder:text-xl focus:outline-none"></textarea>
         </div>
     </section>
+    <!-- footer -->
+    <footer class="bg-dark ">
+        <div class="pt-20 pb-5 px-10 w-full container mx-auto max-w-9xl">
+            <div class="flex flex-col md:flex-row text-center md:text-start  md:justify-between pb-10">
+                <!-- About Us -->
+                <div class="text-lite md:w-72 w-full">
+                    <h1 class="text-lg mb-4">About Us</h1>
+                    <p class="text-sm md:py-1 py-3">
+                        We started with a small store in Stuttgart in 2018 and after 1 year we launched a small website
+                        and in 2020
+                        we
+                        launched a large clothing boutique in Berlin . Most of our work is summarized through the
+                        website and
+                        virtual
+                        space because we supply clothes all over Europe
+                    </p>
+                </div>
+                <!-- Helpful Links -->
+                <div class="hidden xl:block text-lite w-72 px-16">
+                    <h1 class="text-lg mb-4">Helpful Links</h1>
+                    <ul>
+                        <li class="flex gap-x-2 items-center py-2">
+                            <span>⚪</span>
+                            <a href=""><span>Cloth shop</span></a>
+                        </li>
+                        <li class="flex gap-x-2 items-center py-2">
+                            <span>⚪</span>
+                            <a href=""><span>shoes shop</span></a>
+                        </li>
+                        <li class="flex gap-x-2 items-center py-2">
+                            <span>⚪</span>
+                            <a href=""><span>watch shop</span></a>
+                        </li>
+                        <li class="flex gap-x-2 items-center py-2">
+                            <span>⚪</span>
+                            <a href=""><span>backpack shop</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Social Media -->
+                <div class="text-lite md:w-72 pl-2 w-full">
+                    <h1 class="text-lg mb-4">Social Media</h1>
+                    <div class="flex items-center bg-lite">
+                        <input type="text" placeholder="Enter your E-mail Address ..."
+                            class="bg-dark border border-lite px-3 py-1 placeholder:text-lite placeholder:text-xs focus:outline-0 w-[85%]">
+                        <button class="bg-lite text-dark py-1 px-6 text-xl">Join</button>
+                    </div>
+                    <div class="flex my-4 items-center gap-x-2 justify-center md:justify-start">
+                        <div class="p-1 bg-lite cursor-pointer"><img src="assets/images/instagram.png" class="w-8">
+                        </div>
+                        <div class="p-1 bg-lite cursor-pointer"><img src="assets/images/facebook.png" class="w-8"></div>
+                        <div class="p-1 bg-lite cursor-pointer"><img src="assets/images/twitter.png" class="w-8"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer button -->
+            <hr class="border-lite pt-2 pb-5">
+            <p class="text-sm text-lite text-center">produced by ❤ <a href="https://mehrganakbari.com">Mehrgan
+                    Akbari</a></p>
+        </div>
+    </footer>
     <script type="module" src="src/scripts/main.js"></script>
 </body>
 
