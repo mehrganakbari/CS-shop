@@ -67,7 +67,7 @@ var navbarContant = [{
       <!-- navbar ==> mobile -->
       <div class="sm:hidden w-full">
         <!-- Mobile menu button -->
-        <div class="sm:hidden flex justify-between w-full">
+        <div class="xs2:hidden flex justify-between w-full">
           <!-- navbar user icons mobile-->
           <div class="flex justify-between pb-2 xs2:hidden gap-x-3 items-center">
             <img src="/assets/images/shopping-cart.png" alt="" class="w-7 h-7 cursor-pointer">
