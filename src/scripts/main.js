@@ -2,7 +2,7 @@ import '../common/index.css'
 
 
 
-// carusel
+// watch suggestions => home page
 const elem = document.querySelector('#offerbywatchSect')
 var watchCards = [{
     'title': 'Galaxy Watch 3',
@@ -37,7 +37,7 @@ var watchCards = [{
   },
 ]
 
-var cards = ''
+var wcards = ''
 
 watchCards.forEach(el => {
   let template = `
@@ -72,7 +72,8 @@ watchCards.forEach(el => {
     </div>
   </div>
   `
-  cards += template
+  wcards += template
 })
 
-elem.insertAdjacentHTML('beforeend', cards)
+elem.insertAdjacentHTML('beforeend', wcards)
+
