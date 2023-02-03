@@ -1,13 +1,12 @@
 const shoes_Suggestions = document.querySelector('#shoesSuggestions')
-var shoesCards = [
-    {
+var shoesCards = [{
         "title": "Nike Air white",
         "image": "/assets/images/Screenshot_2022-10-17_185526-removebg-preview.png",
         "price": "40$",
         "star": 4.5,
         "seal": false
     },
-    
+
     {
         "title": "Nike Air Black & White",
         "image": "/assets/images/Screenshot_2022-10-17_185639-removebg-preview.png",
@@ -15,7 +14,7 @@ var shoesCards = [
         "star": 4,
         "seal": true
     },
-    
+
     {
         "title": "Nike Sport black - SMA32",
         "image": "/assets/images/Screenshot_2022-10-17_185712-removebg-preview.png",
@@ -23,7 +22,7 @@ var shoesCards = [
         "star": 5,
         "seal": false
     },
-    
+
     {
         "title": "Nike Jordan-model long White",
         "image": "/assets/images/Screenshot_2022-10-17_185408-removebg-preview.png",
@@ -31,7 +30,7 @@ var shoesCards = [
         "star": 3.5,
         "seal": true
     },
-    
+
     {
         "title": "Nike Sport black - SMBA32",
         "image": "/assets/images/Screenshot_2022-10-17_185742-removebg-preview.png",
@@ -39,7 +38,7 @@ var shoesCards = [
         "star": 4,
         "seal": false
     },
-    
+
     {
         "title": "Nike Sport Black & White",
         "image": "/assets/images/Screenshot_2022-10-17_184323-removebg-preview.png",
@@ -47,7 +46,7 @@ var shoesCards = [
         "star": 4,
         "seal": true
     },
-    
+
     {
         "title": "Rebook Sport Black",
         "image": "/assets/images/Screenshot_2022-10-17_184557-removebg-preview.png",
@@ -55,7 +54,7 @@ var shoesCards = [
         "star": 4,
         "seal": false
     },
-    
+
     {
         "title": "Adidas short - Blue & White",
         "image": "/assets/images/Screenshot_2022-10-17_184427-removebg-preview.png",
@@ -63,7 +62,7 @@ var shoesCards = [
         "star": 4,
         "seal": false
     },
-    
+
     {
         "title": "Nike short - Black & White",
         "image": "/assets/images/Screenshot_2022-10-17_185817-removebg-preview.png",
@@ -78,7 +77,7 @@ var shoesCards = [
         "star": 3,
         "seal": false
     },
-    
+
     {
         "title": "Nike Jordan-model short Red & Black",
         "image": "/assets/images/Screenshot_2022-10-17_185447-removebg-preview.png",
@@ -86,7 +85,7 @@ var shoesCards = [
         "star": 5,
         "seal": false
     },
-    
+
     {
         "title": "Under mora black ",
         "image": "/assets/images/Screenshot_2022-10-17_184653-removebg-preview.png",
@@ -94,7 +93,7 @@ var shoesCards = [
         "star": 4.5,
         "seal": false
     },
-    
+
     {
         "title": "Nike sport - SA35 Black & White",
         "image": "/assets/images/Screenshot_2022-10-17_184507-removebg-preview.png",
@@ -102,7 +101,7 @@ var shoesCards = [
         "star": 3,
         "seal": true
     },
-    
+
     {
         "title": "Adidas short - Gray & Black",
         "image": "/assets/images/Screenshot_2022-10-17_185300-removebg-preview (2).png",
@@ -110,12 +109,12 @@ var shoesCards = [
         "star": 2.8,
         "seal": false
     }
-    ]
+]
 
 var scards = ''
 
 shoesCards.forEach(sc => {
-    if(sc.seal == true){
+    if (sc.seal == true) {
         let shoestemplate = `
         <div class="w-full flex justify-center">
           <div class="w-72 m-2">
@@ -150,6 +149,6 @@ shoesCards.forEach(sc => {
         `
         scards += shoestemplate
     }
-  })
+})
 
 shoes_Suggestions.insertAdjacentHTML('beforeend', scards)
