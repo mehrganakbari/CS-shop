@@ -161,6 +161,7 @@ clothCards.forEach(cC => {
                     <img src="/assets/images/favorite.png" class="py-1 cursor-pointer w-5 h-7">
                     <img src="/assets/images/shoppingcart.png" class="py-1 cursor-pointer w-5 h-7">
                   </div>
+                  <sapn class="bg-dark text-lite text-xs px-2 py-1 rounded-full absolute top-1 right-1">SALE</span>
                 </div>
                 <div class="text-center bg-dark text-lite py-4">
                   <p class="py-2 text-xl">${cC.title}</p>
